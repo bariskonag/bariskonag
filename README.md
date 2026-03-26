@@ -1,16 +1,25 @@
-## Hi there 👋
+# Hi 👋
 
-<!--
-**bariskonag/bariskonag** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Security & Digital Identity
 
-Here are some ideas to get you started:
+All my work and communications are signed using OpenPGP with hardware-backed security modules. Please verify my identity using the information below.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+| Authority | Key ID | Fingerprint |
+| :--- | :--- | :--- |
+| **Primary** | `1B667955` | `1958 C0E1 D365 81E1 D53E 6E11 64AB E9E8 1B66 7955` |
+| **Backup** | `48315214` | `02BB 91FC C398 7CF0 F3A7 AA63 9B21 1274 4831 5214` |
+
+---
+
+### Trust but Verify
+
+Always cross-reference these fingerprints with my [GitHub profile](https://github.com/bariskonag) and personal website: [bariskonag.com](https://bariskonag.com).
+
+---
+
+### Quick Import
+Detailed fingerprints and ASCII-armored blocks are available in [KEYS.md](./KEYS.md).
+
+```bash
+curl -sL [https://bariskonag.com/public_key.asc](https://bariskonag.com/public_key.asc) | gpg --import   
+```
