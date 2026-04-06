@@ -21,5 +21,5 @@ Always cross-reference these fingerprints with my [GitHub profile](https://githu
 Detailed fingerprints and ASCII-armored blocks are available in [KEYS.md](./KEYS.md).
 
 ```bash
-curl -sL [https://bariskonag.com/public_key.asc](https://bariskonag.com/public_key.asc) | gpg --import   
+curl -sL https://bariskonag.com/pgp-key.txt | gpg --import   
 ```
